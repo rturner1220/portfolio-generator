@@ -1,27 +1,20 @@
 {
   "name": "portfolio-generator",
   "version": "1.0.0",
-  "description": "time tracking program",
+  "description": "",
   "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/sample.js",
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lernantino/portfolio-generator.git"
-  },
-  "author": "lernantino",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lernantino/portfolio-generator/issues"
-  },
-  "homepage": "https://github.com/lernantino/portfolio-generator#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.4",
-    "moment": "^2.29.3"
-  },
-  "keywords": [
-    "time",
-    "tracker"
-  ]
+    "inquirer": "^7.0.3"
+  }
 }
+  
