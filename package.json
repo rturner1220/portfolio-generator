@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/lernantino/portfolio-generator#readme",
   "dependencies": {
-    "inquirer": "^9.0.0",
+    "inquirer": "^8.2.4",
     "moment": "^2.29.3"
   },
   "keywords": [
